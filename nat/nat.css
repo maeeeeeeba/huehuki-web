@@ -1,0 +1,80 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+img {
+    width: 100%;
+}
+
+body {
+    font-family: "游ゴシック","ヒラギノ角ゴ ProN";
+}
+
+
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+p {
+    color: rgb(83, 83, 83);
+}
+
+/* メイン画像 */
+.main-pic img {
+    height: 300px;
+    object-fit: cover;
+    position: relative;
+}
+
+
+/* 笛吹市の説明 */
+.maparea {
+    margin: 50px 0px;
+    padding: 0px 30px;
+}
+
+.maparea h2 {
+    max-width: 1300px;
+    font-size: 30px;
+    border-bottom: solid rgb(255, 190, 201);
+    margin: 20px auto;
+    padding-top: 30px;
+}
+
+.mapexp {
+    display: flex;
+    width: 100%;
+    margin: 0 auto;
+    padding: 30px 0px;
+    max-width: 1200px;
+    
+}
+
+.mapexp img {
+    max-width: 50%;
+    padding-right: 20px;
+    object-fit: cover;
+}
+
+.exptext {
+    max-width: 40%;
+    margin: auto 0;
+    padding: 0 60px;
+}
+
+.exptext p {
+    line-height: 55px;
+}
+
+/* フッター */
+footer {
+    color: white;
+    height: 50px;
+    background-color: rgb(73, 160, 84);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
